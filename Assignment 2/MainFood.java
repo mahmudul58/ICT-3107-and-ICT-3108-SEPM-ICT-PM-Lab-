@@ -5,13 +5,11 @@ public class MainFood {
         beef type = new beef();
         type.setType("Curry");
         System.out.println("Beef type is: " + type.getType());
-        //type.display();
 
         System.out.println("\n2 --> Using Constructor and Getter");
         beef1 type1 = new beef1("Vuna");
         System.out.println("Beef type is: " + type1.getType());
         
-
         System.out.println("\n3 --> Using Only Display Method");
         beef2 type2 = new beef2();
         type2.display();
