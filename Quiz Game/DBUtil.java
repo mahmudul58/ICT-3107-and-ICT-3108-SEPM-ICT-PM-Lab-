@@ -6,7 +6,7 @@ public class DBUtil {
 
     private static final String URL = "jdbc:mysql://localhost:3306/quizdb";
     private static final String USER = "root";
-    private static final String PASS = "Maiza@2023";
+    private static final String PASS = "DB_password";
 
     public static List<Question> getRandomQuestions() {
         List<Question> list = new ArrayList<>();
