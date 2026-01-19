@@ -8,7 +8,7 @@ public class JdbcConnection {
                 Connection conn = DriverManager.getConnection(
                         "jdbc:mysql://localhost:3306/student",
                         "root",
-                        "Maiza@2023"
+                        ""
                 );
                 Scanner sc = new Scanner(System.in)
         ) {
