@@ -1,0 +1,11 @@
+
+<web-app>
+ <servlet>
+   <servlet-name>Register</servlet-name>
+   <servlet-class>com.example.RegisterServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>Register</servlet-name>
+   <url-pattern>/register</url-pattern>
+ </servlet-mapping>
+</web-app>
